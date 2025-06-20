@@ -24,6 +24,7 @@ export default defineConfig({
 				name: "post",
 				label: "Posts",
 				path: "posts",
+				description: "Explicitly regenerated schema",  // <- trivial but forces schema regeneration explicitly
 				defaultItem: () => ({
 					title: "New Post",
 					added: new Date(),
