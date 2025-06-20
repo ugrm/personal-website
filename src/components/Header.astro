@@ -3,21 +3,57 @@ import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 ---
 
-<header>
-	<div class="header-section">
-		<div class="header-frame">
-			<h1>{SITE_TITLE}</h1>
-			<h2>{SITE_DESCRIPTION}</h2>
-		</div>
-	</div>
-</header>
-<nav>
-	<HeaderLink href="/">home</HeaderLink>
-	<HeaderLink href="/posts">posts</HeaderLink>
-	<HeaderLink href="https://cassidoo.co/newsletter">etc</HeaderLink>
-</nav>
 <style>
-	h2 {
-		margin: 0.5em 0;
-	}
+  header {
+    position: relative;
+    z-index: 9999; /* ensures header stays clickable */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .header-section img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+  }
+
+  nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  h1, h2 {
+    margin: 0;
+  }
+
+  h2 {
+    margin-top: 0.3em;
+    color: gray;
+  }
 </style>
+
+<header>
+  <div class="header-section">
+    <img src="/profile_pic_4.jpg" alt="Profile Picture" />
+    <div class="header-frame">
+      <h1>{SITE_TITLE}</h1>
+      <h2>{SITE_DESCRIPTION}</h2>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <HeaderLink href="/">about</HeaderLink>
+  <HeaderLink href="/education">education</HeaderLink>
+  <HeaderLink href="/publications">publications</HeaderLink>
+  <HeaderLink href="/experience">experience</HeaderLink>
+</nav>

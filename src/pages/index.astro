@@ -21,21 +21,13 @@ const tags = getTags(posts);
 		<Header title={SITE_TITLE} />
 		<main>
 			<About />
+			
+			<br />
+
+			<h3></h3>
 
 			<br />
 
-			<h3>Here's my most recent posts</h3>
-
-			<HomePosts allPosts={posts} />
-
-			<p class="center">
-				You can also <a href="https://blahg.netlify.app/rss.xml">
-					subscribe with RSS!
-				</a>
-			</p>
-			<br />
-
-			<Tags tags={tags} all />
 		</main>
 		<Footer />
 		<ColorScript />

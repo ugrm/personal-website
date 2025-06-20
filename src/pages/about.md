@@ -1,9 +1,9 @@
-Welcome to this blog template by [cassidoo](https://cassidoo.co)!
+Hi! I'm Jeahn Han, a senior at the Gwangju Institute of Science and Technology (GIST), currently interning at [MPIL](https://mpil-gist.github.io/).
 
-It's using Astro and TinaCMS. You can [clone it on GitHub](https://github.com/cassidoo/blahg) to use it for yourself, and see how it works! I would _love_ if you told me when you do use it, I love seeing variations on it!
+My research interests are in robotics and sensor-driven perception. Currently, I'm working on geometry-based floorplan localization. Long-term, I'm excited to integrate acoustic and olfactory sensors into robotics to significantly enhance perception
 
-The tags at the bottom of the page are dynamically generated. The more tags you use, the more tags are added to the list! Posts are simple markdown files.
+Email:jeahnhaan(at)gm(dot)gist(dot)ac(dot)kr
 
-You should also check out [my newsletter](https://cassidoo.co/newsletter), or my word game [Jumblie](https://jumblie.com/?utm_campaign=blahgtmp&utm_source=github), or my [GitHub profile](https://github.com/cassidoo). Or don't. Follow your dreams.
-
-Enjoy!
+<div style="font-size: 13px; margin-bottom: 20px;">
+  Last updated on June 2025
+</div>
